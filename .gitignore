@@ -1,0 +1,35 @@
+# Compiled binary
+decaf_compiler.exe
+*.exe
+*.o
+*.obj
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Temp compiler files
+*.tmp
+*.decaf.tmp
+
+# VS Code
+.vscode/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build artifacts
+*.ilk
+*.pdb
+
+# Flask
+instance/
+.flaskenv
